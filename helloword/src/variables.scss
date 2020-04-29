@@ -1,0 +1,26 @@
+// colori
+$primarycolor: white;
+$secondarycolor: #FFE7D2;
+$tertiarycolor: #58402c;
+$bluecolor: #30488f;
+$bluescuro: #233569;
+$grigino: #bdb5af;
+
+@mixin positionFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@mixin bottoneRadius {
+  padding: 7px 10px;
+  border-radius: 6px;
+}
+
+@mixin bottoneBlu {
+  background: $bluecolor;
+  span {
+    color: $primarycolor;
+    font-weight: bold;
+  }
+}

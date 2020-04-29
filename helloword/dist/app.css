@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #58402c;
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.box-contenitore {
+  margin: 0px 100px;
+}
+
+.metodi-tradizionali,
+.metodi-teambit,
+.esperienze {
+  background: #FFE7D2;
+}
+
+button {
+  padding: 7px 10px;
+  border-radius: 6px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  border-bottom: solid 1px grey;
+  width: 100%;
+}
+
+header nav {
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: calc(100% - 200px);
+}
+
+header nav h3 {
+  padding-left: 10px;
+  font-weight: lighter;
+  font-size: 21px;
+}
+
+header .menu {
+  align-items: center;
+}
+
+header .menu ul li {
+  padding-right: 50px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+header .menu ul li a {
+  text-decoration: none;
+}
+
+header .menu button {
+  border: solid 1px #30488f;
+  background: white;
+}
+
+header .menu button:hover {
+  cursor: pointer;
+  background: #30488f;
+}
+
+header .menu button:hover span {
+  color: white;
+}
+
+header .menu button img {
+  padding-right: 5px;
+}
+
+header .menu button span {
+  color: #30488f;
+  font-weight: bold;
+}
+
+main {
+  margin-top: 75px;
+}
+
+.jumbotron {
+  padding: 100px 0;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+}
+
+.jumbotron h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 30px 0;
+}
+
+.jumbotron .bottoni {
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.jumbotron .bottoni button {
+  background: #30488f;
+}
+
+.jumbotron .bottoni button span {
+  color: white;
+  font-weight: bold;
+}
+
+.jumbotron .bottoni button:hover {
+  cursor: pointer;
+  background: #233569;
+}
+
+.jumbotron .bottoni label {
+  color: #bdb5af;
+  font-size: 13px;
+  padding: 0 5px;
+}
+
+.jumbotron .bottoni img {
+  padding-right: 5px;
+}
+
+.jumbotron .img-jumbo {
+  width: 50%;
+}
+

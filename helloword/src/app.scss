@@ -1,0 +1,122 @@
+// importo le variabili
+@import "variables";
+
+// regole generali
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #58402c;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.box-contenitore {
+  margin: 0px 100px;
+}
+
+.metodi-tradizionali, .metodi-teambit, .esperienze {
+  background: $secondarycolor;
+}
+
+button {
+  @include bottoneRadius;
+}
+
+// header
+header {
+    @include positionFixed;
+    background: $primarycolor;
+    border-bottom: solid 1px grey;
+    width: 100%;
+  nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    width: calc(100% - 200px);
+    h3 {
+      padding-left: 10px;
+      font-weight: lighter;
+      font-size: 21px;
+      }
+  }
+  .menu {
+    align-items: center;
+    ul {
+      li {
+      padding-right: 50px;
+      font-size: 13px;
+      font-weight: bold;
+      a {
+        text-decoration: none;
+        }
+      }
+    }
+    button {
+      border: solid 1px $bluecolor;
+      background: $primarycolor;
+      &:hover {
+        cursor: pointer;
+        background: $bluecolor;
+        span {
+          color: $primarycolor;
+        }
+      }
+      img {
+        padding-right: 5px;
+      }
+      span {
+        color: $bluecolor;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// corpo centrale pagina
+main {
+  margin-top: 75px;
+}
+
+// sezione jumbotron
+.jumbotron {
+  padding: 100px 0;
+  h1 {
+    font-size: 50px;
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 30px 0;
+  }
+  .bottoni {
+    align-items: center;
+    padding-bottom: 20px;
+    button {
+      @include bottoneBlu;
+      &:hover {
+        cursor: pointer;
+        background: $bluescuro;
+      }
+    }
+    label {
+      color: $grigino;
+      font-size: 13px;
+      padding: 0 5px;
+    }
+    img {
+      padding-right: 5px;
+    }
+
+  }
+  .img-jumbo {
+      width: 50%;
+  }
+}
