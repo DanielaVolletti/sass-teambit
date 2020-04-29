@@ -10,6 +10,10 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
 }
@@ -59,10 +63,6 @@ header .menu ul li {
   padding-right: 50px;
   font-size: 13px;
   font-weight: bold;
-}
-
-header .menu ul li a {
-  text-decoration: none;
 }
 
 header .menu button {
@@ -135,7 +135,64 @@ main {
   padding-right: 5px;
 }
 
+.jumbotron a {
+  font-size: 13px;
+}
+
 .jumbotron .img-jumbo {
   width: 50%;
+}
+
+.metodi-tradizionali,
+.metodi-teambit {
+  text-align: center;
+}
+
+.metodi-tradizionali h3,
+.metodi-teambit h3 {
+  font-size: 24px;
+  margin: 0 250px;
+}
+
+.metodi-tradizionali .row-metodo,
+.metodi-teambit .row-metodo {
+  padding: 60px 0;
+}
+
+.metodi-tradizionali .centrato,
+.metodi-teambit .centrato {
+  justify-content: center;
+}
+
+.metodi-tradizionali .container-metodo,
+.metodi-teambit .container-metodo {
+  padding: 100px 0;
+}
+
+.metodi-tradizionali .container-info-metodi,
+.metodi-teambit .container-info-metodi {
+  width: 200px;
+  margin: 0 40px;
+}
+
+.metodi-tradizionali .img-metodi,
+.metodi-teambit .img-metodi {
+  height: 105px;
+  width: 140px;
+}
+
+.metodi-tradizionali .img-metodi img,
+.metodi-teambit .img-metodi img {
+  width: auto;
+  height: 100%;
+}
+
+.metodi-tradizionali .coniglio img,
+.metodi-teambit .coniglio img {
+  width: 25%;
+}
+
+.metodi-tradizionali .container-metodo {
+  border-bottom: solid 1px grey;
 }
 

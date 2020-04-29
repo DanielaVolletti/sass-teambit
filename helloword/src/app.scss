@@ -14,6 +14,10 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
 }
@@ -54,9 +58,6 @@ header {
       padding-right: 50px;
       font-size: 13px;
       font-weight: bold;
-      a {
-        text-decoration: none;
-        }
       }
     }
     button {
@@ -114,9 +115,50 @@ main {
     img {
       padding-right: 5px;
     }
-
+  }
+  a {
+    font-size: 13px;
   }
   .img-jumbo {
       width: 50%;
+  }
+}
+
+// sezione metodi-tradizionali
+.metodi-tradizionali, .metodi-teambit {
+  text-align: center;
+  h3 {
+    font-size: 24px;
+    margin: 0 250px;
+  }
+  .row-metodo {
+    padding: 60px 0;
+  }
+  .centrato {
+    justify-content: center;
+  }
+  .container-metodo {
+    padding: 100px 0;
+  }
+  .container-info-metodi{
+    width: 200px;
+    margin: 0 40px;
+  }
+  .img-metodi {
+    height: 105px;
+    width: 140px;
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+  .coniglio img {
+    width: 25%;
+  }
+}
+
+.metodi-tradizionali {
+  .container-metodo {
+    border-bottom: solid 1px $grigio;
   }
 }
