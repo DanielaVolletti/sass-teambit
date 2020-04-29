@@ -187,6 +187,11 @@ main {
   height: 100%;
 }
 
+.metodi-tradizionali .coniglio h3,
+.metodi-teambit .coniglio h3 {
+  padding-top: 90px;
+}
+
 .metodi-tradizionali .coniglio img,
 .metodi-teambit .coniglio img {
   width: 25%;

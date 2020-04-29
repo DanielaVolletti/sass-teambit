@@ -152,9 +152,15 @@ main {
       height: 100%;
     }
   }
-  .coniglio img {
-    width: 25%;
+  .coniglio {
+    h3 {
+      padding-top: 90px;
+    }
+    img {
+      width: 25%;
+    }
   }
+
 }
 
 .metodi-tradizionali {
