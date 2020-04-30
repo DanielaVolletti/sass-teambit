@@ -168,3 +168,32 @@ main {
     border-bottom: solid 1px $grigio;
   }
 }
+
+// sezione feedback, surveys, reviews, praise
+.feedback, .reviews {
+  padding-top: 100px;
+  padding-right: 150px;
+  .sez-testo {
+    right: 60px;
+    @include fontTestiImg;
+  }
+  .img-left {
+    @include imgRelativeLeft;
+  }
+}
+
+.surveys, .praise {
+  padding-top: 100px;
+  padding-left: 150px;
+  .sez-testo {
+    left: 60px;
+    @include fontTestiImg;
+  }
+  .img-right {
+    @include imgRelativeRight;
+  }
+}
+
+.praise {
+  padding-bottom: 50px;
+}

@@ -201,3 +201,115 @@ main {
   border-bottom: solid 1px grey;
 }
 
+.feedback,
+.reviews {
+  padding-top: 100px;
+  padding-right: 150px;
+}
+
+.feedback .sez-testo,
+.reviews .sez-testo {
+  right: 60px;
+  position: relative;
+  flex-direction: column;
+  z-index: -1;
+}
+
+.feedback .sez-testo h3,
+.reviews .sez-testo h3 {
+  font-size: 25px;
+}
+
+.feedback .sez-testo h4,
+.reviews .sez-testo h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 20px;
+}
+
+.feedback .sez-testo a,
+.reviews .sez-testo a {
+  padding: 35px 0;
+  font-size: 20px;
+  color: #30488f;
+}
+
+.feedback .sez-testo a i,
+.reviews .sez-testo a i {
+  color: #30488f;
+}
+
+.feedback .sez-testo img,
+.reviews .sez-testo img {
+  max-width: 270px;
+  display: block;
+  align-self: center;
+}
+
+.feedback .img-left,
+.reviews .img-left {
+  width: 770px;
+  height: auto;
+  position: relative;
+  left: -90px;
+  z-index: -1;
+}
+
+.surveys,
+.praise {
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.surveys .sez-testo,
+.praise .sez-testo {
+  left: 60px;
+  position: relative;
+  flex-direction: column;
+  z-index: -1;
+}
+
+.surveys .sez-testo h3,
+.praise .sez-testo h3 {
+  font-size: 25px;
+}
+
+.surveys .sez-testo h4,
+.praise .sez-testo h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 20px;
+}
+
+.surveys .sez-testo a,
+.praise .sez-testo a {
+  padding: 35px 0;
+  font-size: 20px;
+  color: #30488f;
+}
+
+.surveys .sez-testo a i,
+.praise .sez-testo a i {
+  color: #30488f;
+}
+
+.surveys .sez-testo img,
+.praise .sez-testo img {
+  max-width: 270px;
+  display: block;
+  align-self: center;
+}
+
+.surveys .img-right,
+.praise .img-right {
+  width: 770px;
+  height: auto;
+  position: relative;
+  right: -90px;
+  z-index: -1;
+}
+
+.praise {
+  padding-bottom: 50px;
+}
+

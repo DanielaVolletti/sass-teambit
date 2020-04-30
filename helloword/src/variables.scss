@@ -25,3 +25,46 @@ $grigino: #bdb5af;
     font-weight: bold;
   }
 }
+
+@mixin imgRelativeLeft {
+  width: 770px;
+  height: auto;
+  position: relative;
+  left: -90px;
+  z-index: -1;
+}
+
+@mixin imgRelativeRight {
+  width: 770px;
+  height: auto;
+  position: relative;
+  right: -90px;
+  z-index: -1;
+}
+
+@mixin fontTestiImg {
+  position: relative;
+  flex-direction: column;
+  z-index: -1;
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 20px;
+  }
+  a {
+    padding: 35px 0;
+    font-size: 20px;
+    color: $bluecolor;
+    i {
+      color: $bluecolor;
+    }
+  }
+  img {
+    max-width: 270px;
+    display: block;
+    align-self: center;
+  }
+}
