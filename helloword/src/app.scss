@@ -30,15 +30,36 @@ a {
   background: $secondarycolor;
 }
 
+// regole bottoni pagina
 button {
   @include bottoneRadius;
+}
+
+.bottoni {
+  align-items: center;
+  padding-bottom: 20px;
+  button {
+    @include bottoneBlu;
+    &:hover {
+      cursor: pointer;
+      background: $bluescuro;
+    }
+  }
+  label {
+    color: $grigino;
+    font-size: $fontsmall;
+    padding: 0 5px;
+  }
+  img {
+    padding-right: 5px;
+  }
 }
 
 // header
 header {
     @include positionFixed;
     background: $primarycolor;
-    border-bottom: solid 1px grey;
+    border-bottom: solid 1px $grigio;
     width: 100%;
   nav {
     justify-content: space-between;
@@ -48,7 +69,7 @@ header {
     h3 {
       padding-left: 10px;
       font-weight: lighter;
-      font-size: 21px;
+      font-size: $fontNav;
       }
   }
   .menu {
@@ -56,7 +77,7 @@ header {
     ul {
       li {
       padding-right: 50px;
-      font-size: 13px;
+      font-size: $fontHeader;
       font-weight: bold;
       }
     }
@@ -84,40 +105,24 @@ header {
 // corpo centrale pagina
 main {
   margin-top: 75px;
+  h1, h3, h4, h5 {
+    line-height: 1.5;
+  }
 }
-
 // sezione jumbotron
 .jumbotron {
   padding: 100px 0;
   h1 {
-    font-size: 50px;
+    font-size: $fontH1;
   }
   h4 {
-    font-size: 20px;
+    font-size: $fonth4;
     font-weight: lighter;
     padding: 30px 0;
   }
-  .bottoni {
-    align-items: center;
-    padding-bottom: 20px;
-    button {
-      @include bottoneBlu;
-      &:hover {
-        cursor: pointer;
-        background: $bluescuro;
-      }
-    }
-    label {
-      color: $grigino;
-      font-size: 13px;
-      padding: 0 5px;
-    }
-    img {
-      padding-right: 5px;
-    }
-  }
+
   a {
-    font-size: 13px;
+    font-size: $fontsmall;
   }
   .img-jumbo {
       width: 50%;
@@ -127,9 +132,13 @@ main {
 // sezione metodi-tradizionali
 .metodi-tradizionali, .metodi-teambit {
   text-align: center;
+  h3, h5 {
+    line-height: 1.5;
+  }
   h3 {
-    font-size: 24px;
+    font-size: $fontH3;
     margin: 0 250px;
+    line-height: 1.5;
   }
   .row-metodo {
     padding: 60px 0;
@@ -143,6 +152,13 @@ main {
   .container-info-metodi{
     width: 200px;
     margin: 0 40px;
+    flex-direction: column;
+    align-items: center;
+    h5 {
+      font-size: $fontH5;
+      font-weight: lighter;
+      padding-top: 20px;
+    }
   }
   .img-metodi {
     height: 105px;
@@ -196,4 +212,51 @@ main {
 
 .praise {
   padding-bottom: 50px;
+}
+
+// esperienze
+.esperienze {
+  h2, p {
+    line-height: 1.5;
+  }
+  h2 {
+    text-align: center;
+    font-size: $fontH2;
+    padding: 60px 0;
+  }
+  .contenitore-esperienza {
+    width: 46%;
+    margin: 0px 27%;
+    background: white;
+    border: solid 1px $grigio;
+    padding: 20px 35px;
+    p {
+      font-size: $fontTestimonianza;
+    }
+    .founders {
+      align-items: center;
+      img {
+        width: 40px;
+        margin-right: 8px;
+      }
+      .name-founders {
+        line-height: 1.5;
+        span {
+          font-size: $fontsmall;
+          color: $bluecolor;
+        }
+        h6 {
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+  .sign-up {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    a {
+      font-size: $fontsmall;
+    }
+  }
 }

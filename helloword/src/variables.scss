@@ -7,6 +7,17 @@ $bluescuro: #233569;
 $grigio: grey;
 $grigino: #bdb5af;
 
+//font-size
+$fontNav: 21px;
+$fontHeader: 13px;
+$fonth4: 20px;
+$fontH1: 50px;
+$fontsmall: 13px;
+$fontH3: 25px;
+$fontH5: 17px;
+$fontH2: 37px;
+$fontTestimonianza: 15px;
+
 @mixin positionFixed {
   position: fixed;
   top: 0;
@@ -14,7 +25,7 @@ $grigino: #bdb5af;
 }
 
 @mixin bottoneRadius {
-  padding: 7px 10px;
+  padding: 8px 15px;
   border-radius: 6px;
 }
 
@@ -47,16 +58,16 @@ $grigino: #bdb5af;
   flex-direction: column;
   z-index: -1;
   h3 {
-    font-size: 25px;
+    font-size: $fontH3;
   }
   h4 {
-    font-size: 20px;
+    font-size: $fonth4;
     font-weight: lighter;
     padding-top: 20px;
   }
   a {
     padding: 35px 0;
-    font-size: 20px;
+    font-size: $fonth4;
     color: $bluecolor;
     i {
       color: $bluecolor;

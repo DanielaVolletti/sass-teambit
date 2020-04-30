@@ -29,8 +29,37 @@ a {
 }
 
 button {
-  padding: 7px 10px;
+  padding: 8px 15px;
   border-radius: 6px;
+}
+
+.bottoni {
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.bottoni button {
+  background: #30488f;
+}
+
+.bottoni button span {
+  color: white;
+  font-weight: bold;
+}
+
+.bottoni button:hover {
+  cursor: pointer;
+  background: #233569;
+}
+
+.bottoni label {
+  color: #bdb5af;
+  font-size: 13px;
+  padding: 0 5px;
+}
+
+.bottoni img {
+  padding-right: 5px;
 }
 
 header {
@@ -92,6 +121,13 @@ main {
   margin-top: 75px;
 }
 
+main h1,
+main h3,
+main h4,
+main h5 {
+  line-height: 1.5;
+}
+
 .jumbotron {
   padding: 100px 0;
 }
@@ -104,35 +140,6 @@ main {
   font-size: 20px;
   font-weight: lighter;
   padding: 30px 0;
-}
-
-.jumbotron .bottoni {
-  align-items: center;
-  padding-bottom: 20px;
-}
-
-.jumbotron .bottoni button {
-  background: #30488f;
-}
-
-.jumbotron .bottoni button span {
-  color: white;
-  font-weight: bold;
-}
-
-.jumbotron .bottoni button:hover {
-  cursor: pointer;
-  background: #233569;
-}
-
-.jumbotron .bottoni label {
-  color: #bdb5af;
-  font-size: 13px;
-  padding: 0 5px;
-}
-
-.jumbotron .bottoni img {
-  padding-right: 5px;
 }
 
 .jumbotron a {
@@ -149,9 +156,17 @@ main {
 }
 
 .metodi-tradizionali h3,
+.metodi-tradizionali h5,
+.metodi-teambit h3,
+.metodi-teambit h5 {
+  line-height: 1.5;
+}
+
+.metodi-tradizionali h3,
 .metodi-teambit h3 {
-  font-size: 24px;
+  font-size: 25px;
   margin: 0 250px;
+  line-height: 1.5;
 }
 
 .metodi-tradizionali .row-metodo,
@@ -173,6 +188,15 @@ main {
 .metodi-teambit .container-info-metodi {
   width: 200px;
   margin: 0 40px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metodi-tradizionali .container-info-metodi h5,
+.metodi-teambit .container-info-metodi h5 {
+  font-size: 17px;
+  font-weight: lighter;
+  padding-top: 20px;
 }
 
 .metodi-tradizionali .img-metodi,
@@ -311,5 +335,60 @@ main {
 
 .praise {
   padding-bottom: 50px;
+}
+
+.esperienze h2,
+.esperienze p {
+  line-height: 1.5;
+}
+
+.esperienze h2 {
+  text-align: center;
+  font-size: 37px;
+  padding: 60px 0;
+}
+
+.esperienze .contenitore-esperienza {
+  width: 46%;
+  margin: 0px 27%;
+  background: white;
+  border: solid 1px grey;
+  padding: 20px 35px;
+}
+
+.esperienze .contenitore-esperienza p {
+  font-size: 15px;
+}
+
+.esperienze .contenitore-esperienza .founders {
+  align-items: center;
+}
+
+.esperienze .contenitore-esperienza .founders img {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.esperienze .contenitore-esperienza .founders .name-founders {
+  line-height: 1.5;
+}
+
+.esperienze .contenitore-esperienza .founders .name-founders span {
+  font-size: 13px;
+  color: #30488f;
+}
+
+.esperienze .contenitore-esperienza .founders .name-founders h6 {
+  font-weight: lighter;
+}
+
+.esperienze .sign-up {
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.esperienze .sign-up a {
+  font-size: 13px;
 }
 
