@@ -60,6 +60,7 @@ button {
 
 .bottoni img {
   padding-right: 5px;
+  width: 25px;
 }
 
 header {
@@ -199,7 +200,7 @@ main h5 {
 
 .metodi-tradizionali .row-metodo,
 .metodi-teambit .row-metodo {
-  padding: 60px 0;
+  padding: 90px 0;
 }
 
 .metodi-tradizionali .centrato,
@@ -377,11 +378,20 @@ main h5 {
 }
 
 .esperienze .contenitore-esperienza {
+  position: relative;
   width: 46%;
   margin: 0px 27%;
   background: white;
   border: solid 1px grey;
   padding: 20px 35px;
+}
+
+.esperienze .contenitore-esperienza i {
+  position: absolute;
+  top: -21px;
+  left: -1px;
+  font-size: 40px;
+  color: #30488f;
 }
 
 .esperienze .contenitore-esperienza p {
@@ -469,5 +479,19 @@ footer .container-lista-footer .lista-footer ul li {
 
 footer .container-lista-footer .lista-footer ul li a:hover {
   color: #30488f;
+}
+
+.message-alt {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px;
+  background: #30488f;
+  border-radius: 50%;
+}
+
+.message-alt i {
+  font-size: 30px;
+  color: white;
 }
 

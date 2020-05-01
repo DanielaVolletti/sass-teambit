@@ -52,6 +52,7 @@ button {
   }
   img {
     padding-right: 5px;
+    width: 25px;
   }
 }
 
@@ -166,7 +167,7 @@ main {
     line-height: 1.5;
   }
   .row-metodo {
-    padding: 60px 0;
+    padding: 90px 0;
   }
   .centrato {
     justify-content: center;
@@ -174,7 +175,7 @@ main {
   .container-metodo {
     padding: 100px 0;
   }
-  .container-info-metodi{
+  .container-info-metodi {
     width: 200px;
     margin: 0 40px;
     flex-direction: column;
@@ -201,7 +202,6 @@ main {
       width: 25%;
     }
   }
-
 }
 
 .metodi-tradizionali {
@@ -250,11 +250,19 @@ main {
     padding: 60px 0;
   }
   .contenitore-esperienza {
+    position: relative;
     width: 46%;
     margin: 0px 27%;
     background: white;
     border: solid 1px $grigio;
     padding: 20px 35px;
+    i {
+      position: absolute;
+      top: -21px;
+      left: -1px;
+      font-size: 40px;
+      color: $bluecolor;
+    }
     p {
       font-size: $fontTestimonianza;
     }
@@ -283,7 +291,7 @@ main {
     a {
       font-size: $fontsmall;
       &:hover {
-        color: #30488f;
+        color: $bluecolor;
       }
     }
   }
@@ -297,7 +305,6 @@ footer {
   }
   .logo-footer {
     flex-basis: calc(100% - 70%);
-    // margin-right: 50px;
     img {
       width: 125px;
       align-self: flex-start;
@@ -320,11 +327,23 @@ footer {
           font-size: $fontsmall;
           padding-bottom: 20px;
           a:hover {
-            color: #30488f;
+            color: $bluecolor;
           }
         }
       }
     }
   }
+}
 
+.message-alt {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px;
+  background: $bluecolor;
+  border-radius: 50%;
+  i {
+    font-size: 30px;
+    color: $primarycolor;
+  }
 }
