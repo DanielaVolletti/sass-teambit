@@ -110,7 +110,7 @@ header .menu ul .padre-drop:hover .dropdown {
 header .menu ul .padre-drop .dropdown {
   display: none;
   position: absolute;
-  top: 25px;
+  top: 20px;
   left: 0px;
   background: white;
   padding: 10px 20px 0px 10px;
@@ -469,12 +469,12 @@ footer .container-lista-footer .lista-footer {
 }
 
 footer .container-lista-footer .lista-footer ul {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 footer .container-lista-footer .lista-footer ul li {
   font-size: 13px;
-  padding-bottom: 20px;
+  line-height: 2.5;
 }
 
 footer .container-lista-footer .lista-footer ul li a:hover {

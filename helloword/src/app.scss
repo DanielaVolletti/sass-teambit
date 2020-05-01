@@ -94,7 +94,7 @@ header {
         .dropdown {
           display: none;
           position: absolute;
-          top: 25px;
+          top: 20px;
           left: 0px;
           background: white;
           padding: 10px 20px 0px 10px;
@@ -322,10 +322,10 @@ footer {
     .lista-footer {
       flex-basis: calc(100% / 4);
       ul {
-        padding-top: 20px;
+        padding-top: 15px;
         li {
           font-size: $fontsmall;
-          padding-bottom: 20px;
+          line-height: 2.5;
           a:hover {
             color: $bluecolor;
           }
